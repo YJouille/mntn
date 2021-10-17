@@ -1,0 +1,164 @@
+/* Fonts*/
+/*Chronicle*/
+@font-face {
+  font-family: "Chronicle Display Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Chronicle Display Black"),
+    url("../fonts/Chronicle Display Black.woff") format("woff");
+}
+@font-face {
+  font-family: "Chronicle Display Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Chronicle Display Light Italic"),
+    url("../fonts/Chronicle Display Light Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Chronicle Display Roman";
+  font-style: normal;
+  font-size: normal;
+  src: url("../fonts/Chronicle Display Roman"),
+    url("../fonts/Chronicle Display Roman.woff") format("woff");
+}
+@font-face {
+  font-family: "Chronicle Display Semibold";
+  font-style: normal;
+  font-size: normal;
+  src: url("../fonts/Chronicle Display Semibold"),
+    url("../fonts/Chronicle Display Semibold.woff") format("woff");
+}
+/*Gilroy*/
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Gilroy-Bold"),
+    url("../fonts/Gilroy-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Gilroy-Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Gilroy-Heavy"),
+    url("../fonts/Gilroy-Heavy.woff") format("woff");
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Gilroy-Light"),
+    url("../fonts/Gilroy-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Gilroy-Medium"),
+    url("../fonts/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Gilroy-Regular"),
+    url("../fonts/Gilroy-Regular.woff") format("woff");
+}
+
+.text-uppercase {
+}
+
+header {
+  background-image: url("img/mntn.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200vh;
+}
+
+.menu {
+}
+
+.contenu-site {
+}
+
+h6 {
+  color: #fdb784;
+}
+
+h6::before {
+  content: url("img/line.png");
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: Chronicle Display;
+  color: white;
+}
+
+h5 {
+  color: #fbd784;
+}
+
+p {
+  font-family: "Gilroy-Regular";
+  color: white;
+}
+
+.readmore {
+  font-family: "Gilroy-Regular";
+  color: #fbd784;
+}
+
+a.readmore::after {
+  content: url("img/right-arrow.png");
+}
+
+#hiking-guide {
+  font-family: "Gilroy-Bold", Verdana, sans-serif;
+  color: #fdb784;
+}
+
+#rectangle {
+  size: 10px;
+}
+
+#scroll-down {
+  font-family: "Gilroy-Bold", Verdana, sans-serif;
+  color: white;
+}
+
+#slogan {
+  color: white;
+  font-family: "Chronicle Display", Verdana, sans-serif;
+}
+
+.accroche {
+  margin: 300px auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin: auto;
+  background-color: #0b1d26;
+  font-family: "Gilroy-Bold", Verdana, sans-serif;
+}
+
+.copyright {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  opacity: 0.5;
+}
+
+/*footer*/
+footer{
+    margin-bottom: 100px;
+}
+/**********media queries**********/
