@@ -66,99 +66,47 @@
     url("../fonts/Gilroy-Regular.woff") format("woff");
 }
 
-.text-uppercase {
+Reset CSS
+*,::after,::before{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.logo{
+
+}
+/*padding pour les tests à supprimer*/
+*{
+  padding: 10px;
 }
 
-header {
-  background-image: url("img/mntn.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 200vh;
+/* Top menu */
+
+/* Banner */
+#banner{
+  margin: 240px 0px; /*top and bottom 240px, left and right 0px*/
+}
+#menu-social{
+  height: 170px;
+  writing-mode: vertical-rl;
+}
+#content-banner{
+  max-width: 960px;
 }
 
-.menu {
-}
+/* Main section */
+.main-section{
 
-.contenu-site {
 }
-
-h6 {
-  color: #fdb784;
-}
-
-h6::before {
-  content: url("img/line.png");
-  vertical-align: middle;
-}
-
-h1 {
-  font-family: Chronicle Display;
-  color: white;
-}
-
-h5 {
+/* Footer */
+.yellow-link{
   color: #fbd784;
 }
-
-p {
-  font-family: "Gilroy-Regular";
-  color: white;
+.white-link{
+ color:white; 
 }
 
-.readmore {
-  font-family: "Gilroy-Regular";
-  color: #fbd784;
-}
+/* Media queries */
 
-a.readmore::after {
-  content: url("img/right-arrow.png");
-}
 
-#hiking-guide {
-  font-family: "Gilroy-Bold", Verdana, sans-serif;
-  color: #fdb784;
-}
 
-#rectangle {
-  size: 10px;
-}
-
-#scroll-down {
-  font-family: "Gilroy-Bold", Verdana, sans-serif;
-  color: white;
-}
-
-#slogan {
-  color: white;
-  font-family: "Chronicle Display", Verdana, sans-serif;
-}
-
-.accroche {
-  margin: 300px auto;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-body {
-  margin: auto;
-  background-color: #0b1d26;
-  font-family: "Gilroy-Bold", Verdana, sans-serif;
-}
-
-.copyright {
-  color: white;
-  font-size: 18px;
-  font-weight: 500;
-  font-family: "Gilroy-Regular";
-  font-style: normal;
-  opacity: 0.5;
-}
-
-/*footer*/
-footer{
-    margin-bottom: 100px;
-}
-/**********media queries**********/

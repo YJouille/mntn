@@ -9,164 +9,110 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
     <!--CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
+    <!--Feuille de style prioritaire par rapport à celle de bootstrap-->
     <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
+
 
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col"><img src="img/Logo.svg"></div>
-                <div class="col menu">
-                    <nav>
-                        <a href="">Equipement</a>
-                        <a href="">About us</a>
-                        <a href="">Blog</a>
-                    </nav>
-                </div>
-                <div class="col">
-                    <img src="img/account_circle_24px.png">
-                    <a href="">Account</a>
-                </div>
-            </div>
-            <div class="accroche">
-                <h6>A HIKING GUIDE</h6>
-
-                <H1 id="slogan">Be Prepared For The<br>Mountains And Beyond!</H1>
-                <div>
-                    <div class="col-1" id="fleche-bas"><img src="img/arrow_downward_24px.png"></div>
-                    <div id="scroll-down" class="col">scroll down</div>
-                </div>
-            </div>
-        </div>
-
+    <!--Top menu-->
+    <header style="border: dashed 1px red" class="container-fluid d-flex justify-content-between align-items-center">
+        <a class="logo">MNTN</a>
+        <nav>
+            <a href="#">Equipement</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+        </nav>
+        <a href="#">Account</a>   
     </header>
-    <!--Section principale-->
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <h6 class="text-uppercase">Get started</h6>
-                <h1>What level of hiker are you?</h1>
-                <p>Determining what level of hiker you are can be an important tool when planning future hikes. This
-                    hiking level guide will help you plan hikes according to different hike ratings set by various
-                    websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced
-                    moderate, expert, or expert backpacker? </p>
-                <a class="readmore">read more</a>
+    <!--Banner-->
+    <article style="border: dashed 1px black" class="container-fluid d-flex align-items-center justify-content-between " id="banner">
+        <nav style="border: dashed 1px green" class="d-flex justify-content-between align-items-center" id="menu-social">
+            <span>Follow us</span>
+            <span><input type="image" src="img/instagram.png"></span>
+            <span><input type="image" src="img/twitter.png"></span>
+        </nav>
+        <section style="border: dashed 1px rgb(221, 147, 10)" id="content-banner">
+            <p>A hiking guide</p>
+            <p>Be Prepared For The Mountains And Beyond!</p>
+            <p><a href="#">scroll down</a></p>
+
+        </section>
+    </article>
+    <!--Main content-->
+
+    <section style="border: dashed 1px red" class="container main-section">
+        <article class="row justify-content-center" id="article1" style="border: dashed 1px black">
+            <div class="col-md-12 col-lg-8">
+                <h2>What level of  hiker are you?</h2>
+                <p>Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker? </p>
             </div>
-            <div class="col-6"><img src="img/img1.png"></div>
-
-        </div>
-        <div class="row">
-            <div class="col-6"><img src="img/img2.png"></div>
-            <div class="col-6">
-                <h6 class="text-uppercase">HIKING ESSENTIALS</h6>
-                <h1>Picking the right Hiking Gear!</h1>
-                <p> The nice thing about beginning hiking is that you don’t really need any special gear, you can
-                    probably get away with things you already have.
-                    Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular
-                    clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
-                <a class="readmore">read more</a>
+            <div class="col-md-12 col-lg-4">
+                <img class="img-fluid" src="img/img1.png" alt="image randonneur">
             </div>
+        </article>
 
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <h6 class="text-uppercase">WHERE YOU GO IS THE KEY</h6>
-                <h1>Understand Your Map & Timing</h1>
-                <p>To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read
-                    over the guide, study the map, and have a good idea of what to expect. I like to know what my next
-                    landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right
-                    turn at the junction..</p>
-                <a class="readmore">read more</a>
+        <article class="row justify-content-center" id="article2" style="border: dashed 1px black">
+            <div class="col-md-12 col-lg-4">
+                <img class="img-fluid" src="img/img2.png" alt="image randonneur">
             </div>
-            <div class="col-6"><img src="img/img3.png"></div>
+            <div class="col-md-12 col-lg-8">
+                <h2>Picking the right Hiking Gear!</h2>
+                <p>The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have.
+                Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</p>  
+            </div>
+        </article>
 
-        </div>
-    </div>
-
-
-    <!-- Footer -->
-    <footer class="container">
-        <!-- Grid row -->
-        <div class="row justify-content-between">
-                <!-- Grid column -->
-                <div class="col-md-6 mt-md-0 mt-3">
-
-                    <!-- Content -->
-                    <div><img src="img/Logo.svg"></div>
-
-                    <p>Get out there & discover your next slope, mountain & destination!</p>
-
+        <article class="row justify-content-center" id="article3" style="border: dashed 1px black">
+            <div class="col-md-12 col-lg-8">
+                <h2>Understand Your Map & Timing</h2>
+                <p>To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..</p>      
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <img class="img-fluid" src="img/img3.png" alt="image boussole">
+            </div> 
+        </article>
+    </section>
+    <!--Footer-->
+    <section class="container footer">
+        <div class="row justify-content-between" style="border: dashed 1px black">
+            <div class="col" style="border: dashed 1px red">
+                <a class="logo" href="#">MNTN</a>
+                <p>
+                    Get out there & discover your next<br> slope, mountain & destination!
+                </p>
+                <div class="copyright">
+                    Copyright 2019 MNTN, Inc. Terms & Privacy
                 </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none pb-3">
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5>More on the Blog</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">About MNTN</a>
-                        </li>
-                        <li>
-                            <a href="#!">Contributors & Writers</a>
-                        </li>
-                        <li>
-                            <a href="#!">Write For Us</a>
-                        </li>
-                        <li>
-                            <a href="#!">Contact Us</a>
-                        </li>
-                        <li>
-                            <a href="#!">Privacy Policy</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5>More on MNTN</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">The Team</a>
-                        </li>
-                        <li>
-                            <a href="#!">Jobs</a>
-                        </li>
-                        <li>
-                            <a href="#!">Press</a>
-                        </li>
-
-                    </ul>
-
-                </div>
-                <!-- Grid column -->
-           
-            <!-- Grid row -->
-            <!-- Copyright -->
-            <div class="footer-copyright text-left py-3  copyright">
-                Copyright 2019 MNTN, Inc. Terms & Privacy
             </div>
-            <!-- Copyright -->
+            <nav class="col-auto nav flex-column" style="border: dashed 1px red">
+                <a class="yellow-link" href="#">More on The Blog</a>
+                <a class="white-link" href="#">About MNTN</a>
+                <a class="white-link" href="#">Contributors & Writers</a>
+                <a class="white-link" href="#">Write for Us</a>
+                <a class="white-link" href="#">Contact Us</a>
+                <a class="white-link" href="#">Privacy Policy</a>
+            </nav>
+            <nav class="col-auto nav flex-column" style="border: dashed 1px red">
+                <a class="yellow-link" href= "#">More on MNTN</a>
+                <a class="white-link" href="#">The Team</a>
+                <a class="white-link" href="#">Jobs</a>
+                <a class="white-link" href="#">Press</a>
+            </nav>
         </div>
-    </footer>
+
+    </section>
 </body>
-
 </html>
