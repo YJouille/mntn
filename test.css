@@ -124,7 +124,7 @@ h2 {
     font-family: Gilroy-Medium;
     color:white; 
 }
-.white:hover { color:#FBD784; }
+.menu a:hover { color: #FBD784; }
 
 .copyright { 
     position: absolute;

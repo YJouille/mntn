@@ -4,109 +4,174 @@
   font-family: "Chronicle Display Black";
   font-style: normal;
   font-weight: normal;
-  src: local("../fonts/Chronicle Display Black"),
-    url("../fonts/Chronicle Display Black.woff") format("woff");
+  src: local("fonts/Chronicle Display Black"),
+    url("fonts/Chronicle Display Black.woff") format("woff");
 }
+
 @font-face {
   font-family: "Chronicle Display Light Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("../fonts/Chronicle Display Light Italic"),
-    url("../fonts/Chronicle Display Light Italic.woff") format("woff");
+  src: local("fonts/Chronicle Display Light Italic"),
+    url("fonts/Chronicle Display Light Italic.woff") format("woff");
 }
+
 @font-face {
   font-family: "Chronicle Display Roman";
   font-style: normal;
   font-size: normal;
-  src: url("../fonts/Chronicle Display Roman"),
-    url("../fonts/Chronicle Display Roman.woff") format("woff");
+  src: url("fonts/Chronicle Display Roman"),
+    url("fonts/Chronicle Display Roman.woff") format("woff");
 }
+
 @font-face {
   font-family: "Chronicle Display Semibold";
   font-style: normal;
   font-size: normal;
-  src: url("../fonts/Chronicle Display Semibold"),
-    url("../fonts/Chronicle Display Semibold.woff") format("woff");
+  src: url("fonts/Chronicle Display Semibold"),
+    url("fonts/Chronicle Display Semibold.woff") format("woff");
 }
+
 /*Gilroy*/
 @font-face {
   font-family: "Gilroy-Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("../fonts/Gilroy-Bold"),
-    url("../fonts/Gilroy-Bold.woff") format("woff");
+  src: local("fonts/Gilroy-Bold"),
+    url("fonts/Gilroy-Bold.woff") format("woff");
 }
+
 @font-face {
   font-family: "Gilroy-Heavy";
   font-style: normal;
   font-weight: normal;
-  src: local("../fonts/Gilroy-Heavy"),
-    url("../fonts/Gilroy-Heavy.woff") format("woff");
+  src: local("fonts/Gilroy-Heavy"),
+    url("fonts/Gilroy-Heavy.woff") format("woff");
 }
+
 @font-face {
   font-family: "Gilroy-Light";
   font-style: normal;
   font-weight: normal;
-  src: local("../fonts/Gilroy-Light"),
-    url("../fonts/Gilroy-Light.woff") format("woff");
+  src: local("fonts/Gilroy-Light"),
+    url("fonts/Gilroy-Light.woff") format("woff");
 }
+
 @font-face {
   font-family: "Gilroy-Medium";
   font-style: normal;
   font-weight: normal;
-  src: local("../fonts/Gilroy-Medium"),
-    url("../fonts/Gilroy-Medium.woff") format("woff");
+  src: local("fonts/Gilroy-Medium"),
+    url("fonts/Gilroy-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: "Gilroy-Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("../fonts/Gilroy-Regular"),
-    url("../fonts/Gilroy-Regular.woff") format("woff");
+  src: local("fonts/Gilroy-Regular"),
+    url("fonts/Gilroy-Regular.woff") format("woff");
 }
 
-Reset CSS
-*,::after,::before{
+Reset CSS *,
+::after,
+::before {
   box-sizing: border-box;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
-.logo{
+html{
+  /* padding: 15px; */
+}
+body {
+  color: white;
+  background-color: #354147;
+  background-image: url("img/mntn.png");
+  background-repeat: no-repeat;
+  font-family: Gilroy-Bold, sans-serif;
+  /* background-size:contain; */
+  background-size: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.h1{
+  font-size: xx-large;
+}
+.logo {
+  font-size: 1.5rem;
+  font-family: Chronicle-Display-Semibold, serif;
+  text-transform: uppercase;
+}
+.logo:hover {
+  color: #FBD784;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar a {
+  padding: 15px;
+}
+a:hover {
+  color: #FBD784;
+}
 
+.account:hover {
+  color: #FBD784;
 }
-/*padding pour les tests à supprimer*/
-*{
-  padding: 10px;
-}
-
 /* Top menu */
 
 /* Banner */
-#banner{
-  margin: 240px 0px; /*top and bottom 240px, left and right 0px*/
+#banner {
+  height: 100vh;
+  /* margin: 300px 0px 600px 0px; */
+  /*top and bottom 240px, left and right 0px*/
 }
-#menu-social{
+
+#menu-social {
   height: 170px;
   writing-mode: vertical-rl;
 }
-#content-banner{
-  max-width: 960px;
+#menu-anchor {
+  height: 170px;
+ 
+}
+#content-banner {
+  /*max-width: 960px;*/
 }
 
 /* Main section */
-.main-section{
+.main-section {
 
 }
+
 /* Footer */
-.yellow-link{
+.footer {
+  margin-bottom: 110px;
+  font-size: 18px;
+}
+.logo-col{
+  position: relative;
+}
+
+.yellow-link {
   color: #fbd784;
 }
-.white-link{
- color:white; 
+.yellow-link a:hover{
+  color: #fbd784;
+}
+.white-link {
+  color: white;
+}
+.white-link a:hover{
+  color: #fbd784;
+}
+.copyright{
+  font-family: Gilroy-Medium, sans-serif;
+  position: absolute;
+  bottom: 0px;
+  font-size: 18px;
+  opacity: 0.5;
 }
 
 /* Media queries */
-
-
-
